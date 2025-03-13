@@ -19,8 +19,8 @@ function Login() {
     }
 
     // Validate default credentials
-    if (username.trim() === "Mani" && password === "Mani@123") {
-      setUser({ username: "Mani", password: "Mani@123", role: "teammember" });
+    if (username.trim() === "Ram" && password === "Ram@123") {
+      setUser({ username: "Ram", password: "Ram@123", role: "teammember" });
     } else if (username.trim() === "admin" && password === "admin@123") {
       setUser({ username: "admin", password: "admin@123", role: "admin" });
     } else {
